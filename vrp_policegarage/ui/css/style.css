@@ -1,0 +1,52 @@
+#container{
+    display: none;
+    position: relative;
+    left: 1600px;
+    height: 680px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.946);
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+}
+
+.buttoncontainer{
+    width: 250px;
+}
+
+.btn{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 250px;
+    height: 45px;
+    background: rgba(5, 5, 5, 0.672);
+    border: 2px solid white;
+    color: white;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.5s;
+    margin-top: 0px;
+    transition: 1s;
+}
+
+.btn:hover{
+    transition: 1s;
+    border: 2px solid rgba(71, 114, 255, 0.856);
+    background: rgba(71, 114, 255, 0.856);
+    color: white;
+}
